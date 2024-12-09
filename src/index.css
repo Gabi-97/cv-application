@@ -1,0 +1,13 @@
+html,
+body {
+   margin: 0;
+   padding: 0;
+}
+.container {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 75px;
+
+    background-color: hsl(0, 3%, 43%);
+}

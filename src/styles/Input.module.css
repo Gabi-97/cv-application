@@ -1,0 +1,63 @@
+
+.inputContainer {
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: Arial, 'san serif';
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+.mainHeader {
+    color: hsl(240, 56%, 76%);
+    font-size: 3em;
+    margin: 0;
+}
+.introPara {
+    font-size: 1.3em;
+}
+span{
+    text-decoration-line: underline;
+    font-size: 1.2em;
+    
+}
+
+.basicInfoContainer, 
+.contactInfoContainer,
+.educationInfoContainer,
+.workContainer,
+.technicalSkillsContainer {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+h2 {
+    margin: 0;
+    font-size: 2em;
+}
+input {
+    width: 350px;
+    height: 50px;
+
+}
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+.addEducationBtn,
+.addRespBtn,
+.addSkillBtn {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.removeBtn {
+    border: 1px solid grey;
+}
+
+

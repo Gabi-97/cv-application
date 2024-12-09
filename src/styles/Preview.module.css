@@ -1,0 +1,39 @@
+
+.previewContainer {
+    align-content: center;
+    padding: 30px;
+}
+.cvTemplateContainer {
+    width: 600px;
+    height: 850px;
+    background-color: white;
+    padding: 20px 50px;
+}
+.previewHeader {
+    display: flex;
+    justify-content: space-between;
+}
+.previewContactInfo > p{
+   margin: 5px;
+}
+
+.fullName {
+    display: flex; 
+    gap: 15px;
+}
+.previewMainContent {
+    display: flex;
+    justify-content: space-between;
+}
+.previewRightSide {
+    width: 250px;
+}
+.previewRightSide, 
+.previewLeftSide {
+    padding: 0px 10px;
+    border-left: 1px black solid;
+}
+h3 {
+    margin:0;
+    color: hsl(240, 53%, 65%);
+}
