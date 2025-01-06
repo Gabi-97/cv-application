@@ -4,7 +4,6 @@ function BasicInfo({ setBasicInfo }) {
 
     function handleInputChange(event) {
         const { id, value } = event.target;
-        console.log("Updating field:", id, "with value:", value);
         
         setBasicInfo({
             [id]: value,

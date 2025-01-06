@@ -49,6 +49,7 @@ function Work({ workInfo, setWorkInfo }) {
                 <div>
                     <input type="text"
                         id="responsibilities"
+                        value={workInfo.newWorkResposibility}
                         onChange={(e) => setWorkInfo({ ...workInfo, newWorkResposibility: e.target.value })}
                     />
                     <button className={styles.addRespBtn} onClick={handleAddChange}>+</button>

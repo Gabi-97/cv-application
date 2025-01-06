@@ -5,7 +5,6 @@ function Education( {educationInfo, setEducationInfo} ) {
 
     function handleInputChange(event) {
         const { id, value } = event.target;
-        console.log("Updating field:", id, "with value:", value);
         
         setEducationInfo({
             [id]: value,
